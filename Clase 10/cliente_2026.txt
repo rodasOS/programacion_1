@@ -1,0 +1,7 @@
+*** Datos del cliente ***
+ID: 1
+NOMBRE: Mario
+CORREO: a
+ID: 2
+NOMBRE: Pepe
+CORREO: e

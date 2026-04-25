@@ -19,7 +19,6 @@ double area(double base, double altura) {
 }
 
 int main() {
-    //setlocale(LC_ALL, "Spanish");
     SetConsoleOutputCP(65001);
 
     cout << "Área cuadrada " << area(4) << endl;
