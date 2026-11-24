@@ -1,3 +1,17 @@
+/*
+ * CLASE 9 - Sobrecarga de funciones: introduccion
+ * TEMA: varias funciones con el MISMO nombre y distinta lista de parametros.
+ *
+ * El compilador elige la version segun la cantidad y el tipo de los argumentos:
+ *   suma(10, 20)          -> int suma(int, int)
+ *   suma(20.5, 10.3)      -> double suma(double, double)
+ *   suma(10, 20, 30)      -> int suma(int, int, int)
+ *
+ * Regla de oro: el tipo de retorno NO distingue sobrecargas.
+ *
+ * Compilar: g++ index.cpp -o index && ./index
+ */
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -18,7 +32,7 @@ int suma(int num1, int num2, int num3) {
 int main() {
     //cout << fixed <<  setprecision(2);
 
-    // Primera función
+    // Primera función (int, int)
     cout << suma(10, 20) << endl;
 
     // Segunda Función

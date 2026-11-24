@@ -1,4 +1,16 @@
 /*
+ * CLASE 9 - Ejercicio 3 (nota): calculadora sobrecargada
+ * TEMA: sumar/restar/multiplicar/dividir con version int y version double.
+ *
+ * Detalles importantes:
+ *   - dividir(int, int) devuelve double para no perder los decimales (static_cast<double>).
+ *   - Validacion de division entre cero con if (b == 0).
+ *   - fixed + setprecision(2) (de <iomanip>) fijan 2 decimales al imprimir.
+ *
+ * Compilar: g++ ejercicio_3.cpp -o ejercicio_3 && ./ejercicio_3
+ */
+
+/*
  * Calculadora avanzada
  * Crear funciones sobrecarcadas para:
  *  Sumar

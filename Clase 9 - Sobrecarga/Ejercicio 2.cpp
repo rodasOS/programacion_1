@@ -1,3 +1,21 @@
+/*
+ * CLASE 9 - Ejercicio 2 (nota): sobrecarga con arreglos
+ * TEMA: sumar() y promedio() sobrecargadas para int[] y double[].
+ *
+ * Conceptos:
+ *   - 'const' en el arreglo: la funcion promete no modificarlo.
+ *   - Un arreglo pasado a una funcion pierde su tamano -> se envia 'tam' aparte.
+ *   - static_cast<double>(...) evita la division entera (promedio de ints).
+ *   - Tamano de un arreglo en el sitio donde se declara:
+ *       sizeof(arr) / sizeof(arr[0])   -> bytes totales / bytes de un elemento
+ *       std::size(arr)                 -> ya devuelve la CANTIDAD de elementos (C++17)
+ *
+ * Correccion aplicada: tamEnteros usaba size(enteros) / sizeof(enteros[0]); como size()
+ * ya da la cantidad (5), dividir otra vez entre 4 daba 1 y la suma/promedio salian mal.
+ *
+ * Compilar: g++ -std=c++17 "Ejercicio 2.cpp" -o ejercicio2 && ./ejercicio2
+ */
+
 //
 // Created by mario on 11/04/2026.
 //
@@ -45,11 +63,11 @@ int main() {
 	int enteros[] = {5, 10, 15, 20, 25};
 	double decimales[] = {1.5, 2.75, 3.25, 4.0, 5.5};
 
-	int tamEnteros = size(enteros) / sizeof(enteros[0]);
+	int tamEnteros = size(enteros); // std::size ya devuelve la cantidad de elementos
 	int tamDecimales = sizeof(decimales) / sizeof(decimales[0]);
 
 	cout << "Sizeof: "<< sizeof(enteros) << " bytes" << endl;
-	cout << "Size: "<< size(enteros) << " bytes" << endl;
+	cout << "Size: "<< size(enteros) << " elementos" << endl;
 
 	cout << "Arreglo de enteros:" << endl;
 	    cout << "Suma: " << sumar(enteros, tamEnteros) << endl;

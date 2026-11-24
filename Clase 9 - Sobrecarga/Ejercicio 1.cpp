@@ -1,3 +1,19 @@
+/*
+ * CLASE 9 - Ejercicio 1 (nota): sobrecarga con structs
+ * TEMA: como Celsius y Fahrenheit son ambos 'un double', se envuelven en structs distintos
+ * para que calcular() pueda sobrecargarse por TIPO de struct.
+ *
+ *   calcular(Celsius)     -> Fahrenheit
+ *   calcular(Fahrenheit)  -> Celsius
+ *   calcular(Metros)      -> Kilometros
+ *
+ * Se construyen con llaves: calcular(Celsius{valor}).
+ * <windows.h> y SetConsoleOutputCP solo existen en Windows; se protegieron con #ifdef _WIN32
+ * para que el archivo tambien compile en Linux/macOS.
+ *
+ * Compilar: g++ "Ejercicio 1.cpp" -o ejercicio1 && ./ejercicio1
+ */
+
 //
 // Created by mario on 11/04/2026.
 //
@@ -10,7 +26,9 @@
  */
 
 #include <iostream>
-#include <windows.h>
+#ifdef _WIN32
+#include <windows.h> // solo Windows: permite imprimir acentos en la consola
+#endif
 #include <iomanip>
 using namespace std;
 
@@ -39,7 +57,9 @@ double calcular(Metros metros) {
 }
 
 int main() {
-    SetConsoleOutputCP(65001);
+#ifdef _WIN32
+    SetConsoleOutputCP(65001); // UTF-8 en la consola de Windows
+#endif
     cout << setprecision(2) << fixed;
 
     double celsius, fahrenheit, metros;
