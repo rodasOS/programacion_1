@@ -1,3 +1,12 @@
+/*
+ * CLASE 8 - Ejercicio 2: login con contador por referencia
+ * TEMA: int &intentos permite que login() modifique el contador de main
+ * (mejora sobre clase 6/prueba.cpp, que usaba una variable global).
+ * Resultado: 'Intentos fallidos: 5' (5 de las 6 llamadas fallan).
+ *
+ * Compilar: g++ ejercicio2.cpp -o ejercicio2 && ./ejercicio2
+ */
+
 #include <iostream>
 using namespace std;
 

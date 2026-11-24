@@ -1,3 +1,24 @@
+/*
+ * CLASE 8 - Arreglos y vectores como parametros
+ * TEMA: que se modifica y que no, segun como se pasa cada estructura.
+ *
+ *   +--------------------------+------------------------+
+ *   | Como se pasa             | Modifica el original?  |
+ *   +--------------------------+------------------------+
+ *   | int arr[]                | SI (pasa la direccion) |
+ *   | vector<int> v            | NO (copia completa)    |
+ *   | vector<int> &v           | SI (referencia)        |
+ *   +--------------------------+------------------------+
+ *
+ * Detalles: los arreglos clasicos no conocen su tamano dentro de la funcion, por eso se
+ * envia aparte (int tamano). Un vector conoce su tamano con v.size().
+ *
+ * Salida esperada: el arreglo y el vector terminan duplicados UNA sola vez cada uno
+ * (el vector por valor se duplica solo dentro de su funcion; el original no cambia ahi).
+ *
+ * Compilar: g++ index.cpp -o index && ./index
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;

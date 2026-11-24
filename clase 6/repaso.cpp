@@ -1,3 +1,13 @@
+/*
+ * CLASE 6 - Repaso 1: return con string
+ * TEMA: funcion que devuelve un string armado con concatenacion (+) y to_string().
+ *
+ * Trampa de examen: todo lo que esta DESPUES de un return NO se ejecuta. El
+ * cout << "pepe" de crearSaludo() es codigo inalcanzable y nunca se imprime.
+ *
+ * Compilar: g++ repaso.cpp -o repaso && ./repaso
+ */
+
 #include <iostream>
 
 using namespace std;

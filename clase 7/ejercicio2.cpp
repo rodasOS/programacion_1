@@ -1,4 +1,21 @@
 /*
+ * CLASE 7 - Ejercicio 2: menu con funciones y un arreglo como parametro
+ * TEMA: menu do-while + switch, funciones que reciben un arreglo, ordenamiento burbuja.
+ *
+ * Conceptos:
+ *   - Menu: do { ... switch(opcion) ... } while (opcion != 4);  -> se repite hasta Salir.
+ *   - Un arreglo se pasa como (int vector[], int size): la funcion modifica el ORIGINAL
+ *     (los arreglos se pasan por direccion, no por copia).
+ *   - ordenar() = burbuja: compara pares vecinos y los intercambia; cada pasada deja el
+ *     mayor al final, por eso el limite interno es size - 1 - i.
+ *   - 'hacerTodo' compone otras funciones: ingreso -> ordenar -> imprimir.
+ *
+ * Este es el modelo de ejercicio que se usa en Ejercicios_Elaborados.md.
+ *
+ * Compilar: g++ ejercicio2.cpp -o ejercicio2 && ./ejercicio2
+ */
+
+/*
     crear un programa que envie como aprametro un verctor de 10 números enteros.
     Crear un menu en el main
         -> Ingreso de datos
@@ -49,7 +66,7 @@ int main() {
     int vector[size];
     int opcion;
 
-    do {
+    do { // el menu se repite hasta que se elige la opcion 4 (Salir)
         cout << "Menu: " << endl;
         cout << "1. Ingreso de datos" << endl;
         cout << "2. Ordenar" << endl;

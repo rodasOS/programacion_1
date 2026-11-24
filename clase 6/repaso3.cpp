@@ -1,3 +1,12 @@
+/*
+ * CLASE 6 - Repaso 3: varias funciones con retorno
+ * TEMA: sumar() y restar() devuelven int; ademas imprimen un mensaje cada vez que se llaman.
+ * Cada llamada se ejecuta en el orden en que aparece en main (primero 'Sumando...',
+ * luego 'Restando...'), y los resultados se imprimen despues.
+ *
+ * Compilar: g++ repaso3.cpp -o repaso3 && ./repaso3
+ */
+
 #include <iostream>
 using namespace std;
 
