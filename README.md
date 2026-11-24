@@ -4,19 +4,19 @@ Repositorio con el código, ejercicios y proyectos del curso de Programación 1 
 
 ## Ruta de aprendizaje
 
-| Clase | Tema central | Qué se aprende |
-|-------|--------------|----------------|
-| [Clase 1](clase%201/README.md) | Ciclos y centinela | `while`, acumuladores, mayor/menor |
-| [Clase 2](clase%202/README.md) | Estructuras (`struct`) | Definir structs, acceder con `.`, structs anidados, cadenas `char[]` |
-| [Clase 3](clase%203/README.md) | Arreglos de structs | Registros múltiples, máximo por índice, totales, filtros |
-| [Clase 4](clase%204/README.md) | Procedimientos | Funciones `void`, prototipos, variables globales vs locales |
-| Clase 5 | *(no hay carpeta en el repo)* | — |
-| [Clase 6](clase%206/README.md) | Funciones con retorno | Parámetros por valor, `return`, `static`, `to_string` |
-| [Clase 7](clase%207/README.md) | Paso por referencia | `&`, intercambio de valores, menús `do-while` + `switch`, burbuja |
-| [Clase 8](clase%208/README.md) | Arreglos y vectores como parámetros | Qué se modifica y qué no según cómo se pasa |
-| [Clase 9](Clase%209%20-%20Sobrecarga/README.md) | Sobrecarga de funciones | Mismo nombre, distintos parámetros; sobrecarga con structs y arreglos |
+| Clase | Tema central | Qué se aprende | Previa |
+|-------|--------------|----------------|--------|
+| [Clase 1](clase%201/README.md) | Ciclos y centinela | `while`, acumuladores, mayor/menor | [Ejercicios](clase%201/Ejercicios_Previos.md) |
+| [Clase 2](clase%202/README.md) | Estructuras (`struct`) | Definir structs, acceder con `.`, structs anidados, cadenas `char[]` | [Ejercicios](clase%202/Ejercicios_Previos.md) |
+| [Clase 3](clase%203/README.md) | Arreglos de structs | Registros múltiples, máximo por índice, totales, filtros | [Ejercicios](clase%203/Ejercicios_Previos.md) |
+| [Clase 4](clase%204/README.md) | Procedimientos | Funciones `void`, prototipos, variables globales vs locales | [Ejercicios](clase%204/Ejercicios_Previos.md) |
+| Clase 5 | *(no hay carpeta en el repo)* | — | — |
+| [Clase 6](clase%206/README.md) | Funciones con retorno | Parámetros por valor, `return`, `static`, `to_string` | [Ejercicios](clase%206/Ejercicios_Previos.md) |
+| [Clase 7](clase%207/README.md) | Paso por referencia | `&`, intercambio de valores, menús `do-while` + `switch`, burbuja | [Ejercicios](clase%207/Ejercicios_Previos.md) |
+| [Clase 8](clase%208/README.md) | Arreglos y vectores como parámetros | Qué se modifica y qué no según cómo se pasa | [Ejercicios](clase%208/Ejercicios_Previos.md) |
+| [Clase 9](Clase%209%20-%20Sobrecarga/README.md) | Sobrecarga de funciones | Mismo nombre, distintos parámetros; sobrecarga con structs y arreglos | [Ejercicios](Clase%209%20-%20Sobrecarga/Ejercicios_Previos.md) |
 
-> **¿Empezando?** Cada carpeta de clase trae un `Ejercicios_Previos.md` con 5 ejercicios ligeros para llegar al tema con soltura. Empieza por la [previa de la Clase 1](clase%201/Ejercicios_Previos.md).
+> **¿Empezando?** La columna *Previa* enlaza a 5 ejercicios ligeros por clase para llegar al tema con soltura. Empieza por la [Clase 1](clase%201/Ejercicios_Previos.md) y sigue en orden.
 
 El tema se va **acumulando**: las estructuras (clases 2-3) se combinan con funciones (4-6), luego con referencias y vectores (7-8), y la sobrecarga (9) se aplica sobre todo lo anterior.
 
