@@ -1,4 +1,14 @@
 /*
+ * CLASE 4 - Ejercicio 2: notas con procedimientos
+ * TEMA: aplicar procedimientos (pedirDatos / calcularPromedio / mostrarResultado).
+ *
+ * Conceptos: prototipos, variables globales, if/else para aprobado (>= 61).
+ * Es la version 'con funciones' del ejercicio de promedio de la clase 3.
+ *
+ * Compilar: g++ ejercicio2.cpp -o ejercicio2 && ./ejercicio2
+ */
+
+/*
     Crear un programa en c++ que incluya procedimientos necesarios para el ingreso de 3 notas, calcular el 
     promedio y finalmente indicar si el estudiante aprobó o no aprobó el curso, sabiendo que se aprueba con 
     una nota >= 61 puntos

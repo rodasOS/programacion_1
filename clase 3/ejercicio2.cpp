@@ -1,4 +1,16 @@
 /*
+ * CLASE 3 - Ejercicio 2: inventario de productos
+ * TEMA: arreglo de structs, acumulador de totales y filtrado por condicion.
+ *
+ * Patrones:
+ *   - Acumulador: valorTotalInventario += precio * cantidad dentro del ciclo.
+ *   - Maximo por indice: indiceProductoMasCaro.
+ *   - Filtro: un segundo for que imprime solo los productos con cantidad < 5.
+ *
+ * Compilar: g++ ejercicio2.cpp -o ejercicio2 && ./ejercicio2
+ */
+
+/*
     Crear un sistema básico de inventario utilizando estructuras en C++
 
     Requisitos:

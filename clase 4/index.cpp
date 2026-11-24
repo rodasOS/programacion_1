@@ -1,3 +1,17 @@
+/*
+ * CLASE 4 - Procedimientos (funciones void)
+ * TEMA: dividir un programa en procedimientos que no devuelven valor.
+ *
+ * Conceptos:
+ *   - Prototipo: la declaracion 'void pedirDatos();' antes del main permite definir
+ *     la funcion DESPUES del main.
+ *   - Variables globales (num1, num2, total) comparten datos entre procedimientos.
+ *   - Variable local (incremento) solo existe dentro de su funcion.
+ *   - El main queda como 'indice' del programa: pedir -> procesar -> mostrar.
+ *
+ * Compilar: g++ index.cpp -o index && ./index
+ */
+
 #include <iostream>
 
 using namespace std;
@@ -25,7 +39,7 @@ void pedirDatos() {
 }
 
 void sumar() {
-    int incremento = 10;
+    int incremento = 10; // variable local: desaparece al terminar sumar()
     total = num1 + num2 + incremento;
 }
 

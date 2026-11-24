@@ -1,3 +1,15 @@
+/*
+ * CLASE 2 - Tarea 1: estructuras anidadas
+ * TEMA: un struct dentro de otro struct (Cliente contiene un Auto).
+ *
+ * Conceptos:
+ *   - Acceso encadenado: cliente1.autoAdquirido.marca  (variable . campo . subcampo).
+ *   - Todos los datos se piden con cin >> sobre arreglos char: NO admiten espacios.
+ *     (para nombres compuestos usar cin.getline como en main.cpp de esta clase).
+ *
+ * Compilar: g++ tarea1.cpp -o tarea1 && ./tarea1
+ */
+
 //Realizar un programa utilziando estructuras el cual debe mostrar en pantalla los datos de
 //un cliente y  un vehículo que adquirió, estos valores deben ingresarse desde el teclado.
 #include<iostream>
@@ -15,7 +27,7 @@ struct Cliente {
     char apellido[30];
     char nacionalidad[20];
     int edad;
-    Auto autoAdquirido;
+    Auto autoAdquirido; // struct anidado: un Cliente 'tiene un' Auto
 }cliente1;
 
 int main() {

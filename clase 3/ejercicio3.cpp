@@ -1,4 +1,16 @@
 /*
+ * CLASE 3 - Ejercicio 3: control de parqueo
+ * TEMA: mismo esquema que los ejercicios 1 y 2 con otro dominio (vehiculos).
+ *
+ * Patrones:
+ *   - Campo calculado: totalPagar = horas * 10 (tarifa fija de Q10 por hora).
+ *   - Acumulador de dinero (totalRecaudado) y maximo por indice (el que mas pago).
+ *   - Filtro por anio de modelo (< 2015).
+ *
+ * Compilar: g++ ejercicio3.cpp -o ejercicio3 && ./ejercicio3
+ */
+
+/*
     Desarrolle un programa en c++ que administre la información de vehículos  en un parqueo.
 
     Requisitos:
