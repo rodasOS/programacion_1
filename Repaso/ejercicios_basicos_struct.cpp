@@ -1,4 +1,8 @@
 /*
+ * REPASO - Calentamiento con structs (por completar): Punto, Rectangulo, Persona, Cancion.
+ */
+
+/*
     EJERCICIOS DE CALENTAMIENTO - ESTRUCTURAS BÁSICAS
     ==================================================
     Ejercicios muy simples para familiarizarte con las estructuras

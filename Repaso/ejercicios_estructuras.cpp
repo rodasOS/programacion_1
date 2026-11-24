@@ -1,4 +1,10 @@
 /*
+ * REPASO - Enunciados de practica de estructuras (6 ejercicios, solo texto).
+ * Libros, empleados, vehiculos, celulares, peliculas y estudiantes con materias
+ * (struct dentro de struct). No contiene codigo ejecutable.
+ */
+
+/*
     EJERCICIOS DE PRÁCTICA - ESTRUCTURAS EN C++
     ============================================
     

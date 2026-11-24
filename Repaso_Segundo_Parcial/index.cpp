@@ -1,3 +1,22 @@
+/*
+ * REPASO SEGUNDO PARCIAL - Lectura de archivo CSV y reportes sobre un arreglo de structs
+ *
+ * Flujo (el mismo del Proyecto del curso):
+ *   1. ifstream abre el archivo; is_open() verifica que exista.
+ *   2. getline(archivo, linea) lee una linea; la primera (encabezado) se descarta.
+ *   3. stringstream + getline(ss, token, ';') separa la linea por el delimitador.
+ *   4. stoi / stod convierten el texto a int / double.
+ *   5. Se guarda cada registro en Venta ventas[MAX] y se devuelve la cantidad leida.
+ *
+ * Reportes: maximo por indice, total por mes/anio (agrupar sin repetir), promedio y
+ * ranking por vendedor (acumular por clave + burbuja descendente).
+ *
+ * OJO: ventas.csv usa ';' como separador; datos2026.csv del Proyecto usa ','.
+ * Ejecutar desde esta carpeta para que encuentre ventas.csv.
+ *
+ * Compilar: g++ index.cpp -o index && ./index
+ */
+
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -23,11 +42,11 @@ int leerCSV(Venta ventas[], const string& nombreArchivo) {
     }
 
     string linea;
-    getline(archivo, linea); // saltar encabezados
+    getline(archivo, linea); // saltar la linea de encabezados
 
     int count = 0;
     while (getline(archivo, linea) && count < MAX) {
-        stringstream ss(linea);
+        stringstream ss(linea); // permite 'partir' la linea como si fuera un flujo de entrada
         string token;
 
         getline(ss, token, ';'); ventas[count].id     = stoi(token);

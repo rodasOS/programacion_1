@@ -1,4 +1,9 @@
 /*
+ * REPASO - Plantilla con TODO: registro de libros (por completar).
+ * Misma estructura que el ejemplo resuelto de mascotas: menor anio = libro mas antiguo.
+ */
+
+/*
     EJERCICIO 1 - PLANTILLA: REGISTRO DE LIBROS
     =============================================
     

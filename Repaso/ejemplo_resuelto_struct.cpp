@@ -1,4 +1,10 @@
 /*
+ * REPASO - Ejemplo RESUELTO: modelo para los ejercicios de estructuras.
+ * Patron completo: registrar -> mostrar -> maximo por indice -> promedio -> filtrar > promedio.
+ * Usalo como guia para resolver ejercicios_basicos_struct.cpp y ejercicio1_libros.cpp.
+ */
+
+/*
     EJEMPLO RESUELTO: REGISTRO DE MASCOTAS
     ========================================
     Este es un ejemplo completo para que veas cómo resolver los ejercicios
