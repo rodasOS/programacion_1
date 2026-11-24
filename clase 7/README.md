@@ -1,5 +1,7 @@
 # Clase 7 · Paso por referencia
 
+> **Antes de empezar:** haz los [ejercicios previos](Ejercicios_Previos.md) (5 ejercicios ligeros, sin spoilers del tema).
+
 **Tema:** `&` para que una función modifique las variables del llamador.
 
 | Archivo | Qué hace |

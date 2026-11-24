@@ -1,5 +1,7 @@
 # Clase 3 · Arreglos de estructuras
 
+> **Antes de empezar:** haz los [ejercicios previos](Ejercicios_Previos.md) (5 ejercicios ligeros, sin spoilers del tema).
+
 **Tema:** manejar muchos registros con un arreglo de structs. Es el patrón más repetido del curso.
 
 | Archivo | Dominio | Cálculo especial |

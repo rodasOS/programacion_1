@@ -1,5 +1,7 @@
 # Clase 1 · Ciclos con centinela
 
+> **Antes de empezar:** haz los [ejercicios previos](Ejercicios_Previos.md) (5 ejercicios ligeros, sin spoilers del tema).
+
 **Tema:** entrada de datos, `while`, acumuladores (mayor/menor) y condicionales.
 
 | Archivo | Qué hace |

@@ -1,5 +1,7 @@
 # Clase 2 · Estructuras (`struct`)
 
+> **Antes de empezar:** haz los [ejercicios previos](Ejercicios_Previos.md) (5 ejercicios ligeros, sin spoilers del tema).
+
 **Tema:** agrupar datos relacionados en un solo tipo.
 
 | Archivo | Qué hace |

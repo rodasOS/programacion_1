@@ -1,5 +1,7 @@
 # Clase 4 · Procedimientos
 
+> **Antes de empezar:** haz los [ejercicios previos](Ejercicios_Previos.md) (5 ejercicios ligeros, sin spoilers del tema).
+
 **Tema:** dividir el programa en funciones `void` (procedimientos).
 
 | Archivo | Qué hace |

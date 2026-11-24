@@ -1,5 +1,7 @@
 # Clase 9 · Sobrecarga de funciones
 
+> **Antes de empezar:** haz los [ejercicios previos](Ejercicios_Previos.md) (5 ejercicios ligeros, sin spoilers del tema).
+
 **Tema:** varias funciones con el **mismo nombre** y distinta lista de parámetros. El compilador elige la versión según cantidad y tipo de argumentos.
 
 ```cpp

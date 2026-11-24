@@ -1,5 +1,7 @@
 # Clase 8 · Arreglos y vectores como parámetros
 
+> **Antes de empezar:** haz los [ejercicios previos](Ejercicios_Previos.md) (5 ejercicios ligeros, sin spoilers del tema).
+
 **Tema:** qué cambia en el original según cómo se pase cada estructura.
 
 | Cómo se pasa | ¿Modifica el original? |

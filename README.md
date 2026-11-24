@@ -16,6 +16,8 @@ Repositorio con el código, ejercicios y proyectos del curso de Programación 1 
 | [Clase 8](clase%208/README.md) | Arreglos y vectores como parámetros | Qué se modifica y qué no según cómo se pasa |
 | [Clase 9](Clase%209%20-%20Sobrecarga/README.md) | Sobrecarga de funciones | Mismo nombre, distintos parámetros; sobrecarga con structs y arreglos |
 
+> **¿Empezando?** Cada carpeta de clase trae un `Ejercicios_Previos.md` con 5 ejercicios ligeros para llegar al tema con soltura. Empieza por la [previa de la Clase 1](clase%201/Ejercicios_Previos.md).
+
 El tema se va **acumulando**: las estructuras (clases 2-3) se combinan con funciones (4-6), luego con referencias y vectores (7-8), y la sobrecarga (9) se aplica sobre todo lo anterior.
 
 ## Material de estudio y evaluación

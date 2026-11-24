@@ -1,5 +1,7 @@
 # Clase 6 · Funciones con retorno
 
+> **Antes de empezar:** haz los [ejercicios previos](Ejercicios_Previos.md) (5 ejercicios ligeros, sin spoilers del tema).
+
 **Tema:** funciones que reciben parámetros **por valor** y devuelven un resultado con `return`.
 
 | Archivo | Qué ilustra |
